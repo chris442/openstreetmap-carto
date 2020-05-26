@@ -1163,7 +1163,7 @@ Layer:
             way
          FROM contour
          WHERE height::int % 2 = 0 AND height::int % 10 != 0 AND height::int % 50 != 0 AND height::int % 200 != 0
-        ) AS contours10
+        ) AS contours2
     properties:
       minzoom: 16
   - id: contours10
