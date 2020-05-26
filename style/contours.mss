@@ -11,8 +11,8 @@
 @contour-line-smaller-opacity: 0.8;
 
 @contour-text-database-mapping: "[height]";
-@contour-text-colour: @pink;
-@contour-text-halo-colour: #FFFFFF;
+@contour-text-colour: black;
+@contour-text-halo-colour: yellow;
 @contour-text-halo-radius: 3;
 @contour-text-line-placement: line;
 @contour-text-spacing: 1000;
