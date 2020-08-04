@@ -36,8 +36,8 @@
 #contours2::uphill {
   line-color: @contour-line-uphill-edge-colour;
   line-smooth: @contour-line-smooth;
-  line-width: @contour-line-width;
-  line-offset: @contour-line-width;
+  line-width: @contour-line-width * @contour-line-multiplier;
+  line-offset: @contour-line-width * @contour-line-multiplier;
 
   [zoom>=16] {
     line-opacity: @contour-line-smaller-opacity;
